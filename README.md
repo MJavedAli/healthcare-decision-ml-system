@@ -25,7 +25,7 @@ It implements a shared platform that supports multiple use cases while enforcing
 
 
 ## High-level architecture
-
+```
 Data → Training Pipeline → Model Artifact (+ metadata)
 ↓
 Model Loader
@@ -34,7 +34,7 @@ Client → FastAPI Inference → Logs (JSON) + Metrics (Prometheus)
 ↓
 Drift Checks → Retrain / Rollback
 
-
+```
 ## Tech stack
 
 - Python, pandas, scikit-learn
